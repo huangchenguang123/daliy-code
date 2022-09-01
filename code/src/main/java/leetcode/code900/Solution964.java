@@ -10,6 +10,11 @@ import java.util.Stack;
  */
 class Solution964 {
 
+    public static void main(String[] args) {
+        Solution964 solution964 = new Solution964();
+        System.out.println(solution964.validateStackSequences(new int[]{2, 1, 0}, new int[]{1, 0, 2}));
+    }
+
     /**
      * @date 2022/9/1 10:39
      * @author huangchenguang
