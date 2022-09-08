@@ -3,7 +3,7 @@ package leetcode.code200;
 /**
  * @date 2022/9/8 11:05
  * @author huangchenguang
- * @desc
+ * @desc 对称二叉树
  */
 public class Solution101 {
 
@@ -26,6 +26,11 @@ public class Solution101 {
         }
     }
 
+    /**
+     * @date 2022/9/8 11:15
+     * @author huangchenguang
+     * @desc dfs遍历
+     */
     public boolean isSymmetric(TreeNode root) {
         return dfs(root.left, root.right);
     }
