@@ -1,4 +1,4 @@
-package leetcode.code200;
+package leetcode.code100;
 
 /**
  * @date 2022/9/8 11:05

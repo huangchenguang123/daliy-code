@@ -1,10 +1,7 @@
-package leetcode.code200;
+package leetcode.code100;
 
 import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 /**
  * @date 2022/9/28 15:14
