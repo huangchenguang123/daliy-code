@@ -32,6 +32,8 @@ public class Solution3 {
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (map.containsKey(c)) {
+                // 下面的代码会导致left回退，case：abccba
+                // left = map.get(c) + 1;
                 left = Math.max(left, map.get(c) + 1);
             }
             map.put(c, i);
