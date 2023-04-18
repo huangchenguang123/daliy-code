@@ -7,7 +7,7 @@ package leetcode.code100;
  */
 public class Solution141 {
 
-    class ListNode {
+    private static class ListNode {
 
         int val;
 
